@@ -1,0 +1,181 @@
+.image-box {
+    position: relative;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%; /* Đảm bảo ảnh không vượt quá kích thước cột */
+    height: 250px; /* Đặt chiều cao cố định */
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Giúp ảnh không bị méo */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* Hot product */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.product-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-price {
+    color: red;
+    font-weight: bold;
+}
+.large-banner {
+    width: 100vw;  /* Full chiều rộng */
+    height:450px;  /* Chiều cao 90% màn hình */
+    object-fit: cover; /* Đảm bảo ảnh phủ hết vùng */
+}
+
+/* Most View Product */
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.product-price {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.product-card {
+    text-align: center;
+    padding: 15px;
+}
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/* Newsletter Section */
+.newsletter-section {
+    background: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+.newsletter-section input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.newsletter-section button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.footer-section {
+    padding: 40px 0;
+}
+.footer-section h5 {
+    font-weight: bold;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+/* OfficeEquipments */
+.navbar {
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+.search-bar {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 100%;
+    max-width: 400px;
+}
+.cart-button {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.cart-button img {
+    width: 20px;
+    margin-right: 5px;
+}
+.breadcrumb {
+    background: #f5f5f5;
+    padding: 10px;
+    margin-top: 5px;
+}
+
